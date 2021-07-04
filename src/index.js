@@ -11,8 +11,18 @@ const io=socketio(server)
 const port = process.env.PORT || 3000
 const publicDirectoryPath= path.join(__dirname,'../public')
 
-io.on('connection',()=>{
+let count =0;
+
+io.on('connection',(socket)=>{
     console.log('New Socket Connection')
+
+    socket.emit('countUpdated',count)
+
+    socket.on('increment',()=>{
+        count++
+
+        io.emit("countUpdated",count)
+    })
 })
 
 app.use(express.static(publicDirectoryPath))
