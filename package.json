@@ -1,0 +1,22 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img src=\"Chat.png\" />\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulg009/chatter.git"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulg009/chatter/issues"
+  },
+  "homepage": "https://github.com/rahulg009/chatter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
