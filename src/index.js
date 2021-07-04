@@ -6,5 +6,5 @@ const pulicDirectoryPath= path.join(__dirname,'../public')
 
 app.use(express.static(publicDirectoryPath))
 app.listen(port,()=>{
-    console.log('Chatter Is Up!!')
+    console.log('Chatter Is Up on ${PORT}')
 })
