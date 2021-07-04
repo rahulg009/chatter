@@ -20,7 +20,8 @@
   "homepage": "https://github.com/rahulg009/chatter#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "socket.io": "^4.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
