@@ -24,7 +24,7 @@
             <div class="compose">
                 <form id="message-form">
                     <input class="form-control"name="message" placeholder="Message" required autocomplete="off">
-                    <button class="btn btn-primary">Send</button>
+                    <button class="btn btn-primary">Send<i class="far fa-paper-plane" style="display:inline"></i></button>
                 </form>
                 <button class="btn btn-warning"id="send-location">Send Location <i class="fas fa-map-marker-alt" style="display:inline"></i></button>
             </div>
@@ -59,6 +59,9 @@
                 <li>{{username}} </li>
             {{/users}}
         </ul>
+        <br>
+        <hr>
+        <a class="btn btn-danger" href="https://rahul-chatter.herokuapp.com/" style="margin-left: 10px;">Leave Room</a>
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
